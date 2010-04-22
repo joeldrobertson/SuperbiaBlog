@@ -26,7 +26,7 @@ body { background: #000;}
 #overview dl { color: #666; line-height: 1.2em; font-size: .9em;}
 #overview dt { font-weight: bold;}
 
-#page li { width: 194px; height: 128px; background: #000; margin: 20px 20px 0 0; float: left; position: relative;}
+#page li { width: 200px; height: 128px; background: #000; margin: 20px 20px 0 0; float: left; position: relative;}
 #page li.no-margin { margin-right: 0;}
 #page li img { position: absolute; top: 0; left: 0; z-index: 1;}
 
@@ -48,8 +48,8 @@ em { color: #09c;}
 #overview p { font-size: 1.5em; line-height: 26px; color: #333;}
 #footer p { font-size: .75em; color: #666; margin: 10px 0;}
 
-#page p { color: #999; font-size: 11px; margin: 6px;}
-#page h2, #page h3, #page h4 { font-size: 1.5em; font-weight: bold;}
+#page p { color: #999; font-family: helvetica; font-size: 11px; margin: 0 6px 6px 6px;}
+#page h2 { font-size: 1.5em; font-weight: bold; background: rgba(000, 000, 000, 0.7); padding: 6px 0 0 6px;}
 #page h2 { color: #fff; line-height: 1.1em; position: relative; z-index: 2;}
 #page h3 { color: #000; margin-top: 20px;}
 #page h4 { color: #888; font-style: italic;}

@@ -52,5 +52,6 @@ sIFR.activate(sauna);
 // be red. Read more about styling at <http://wiki.novemberborn.net/sifr3/Styling>.
 sIFR.replace(sauna, {
   selector: 'h2.replace',
-  css: '.sIFR-root { background-color: #000000; color: #ffffff; font-size: 26px; } a:link { color: #0099CC; text-decoration: none;} a:hover { color: #0099CC; text-decoration: underline;}'
+  wmode: 'transparent',
+  css: '.sIFR-root { color: #cccccc; font-size: 26px; } a:link { color: #0099CC; text-decoration: none;}'
 });
