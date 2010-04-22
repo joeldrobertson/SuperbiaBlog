@@ -1,0 +1,71 @@
+/* Layout */
+
+.col90 { width:90px;}
+.col200 { width:200px;}
+.col310 { width:310px;}
+.col420 { width:420px;}
+.col530 { width:530px;}
+.col640 { width:640px;}
+.col750 { width:750px;}
+.col860 { width:860px;}
+
+.gutter110 { margin-left: 110px;}
+
+.column { margin-right: 20px; overflow: hidden; float: left; display: inline;}
+.row { width: 860px; margin: 0 auto; overflow: hidden;}
+.row .row { margin: 0 -10px; width: auto; display: inline-block;}
+
+body { background: #000;}
+#header, #footer { width: 100%; height: 100px; background: #000; }
+#title { height: 148px; background: #fff;}
+#overview { width: 100%; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 20px 0; background: #fff;}
+#article { padding: 20px 0; background: #fff;}
+#page { background: #fff; padding-bottom: 20px;}
+.wrapper { margin: 0 auto; width: 860px; overflow: hidden; }
+
+#overview dl { color: #666; line-height: 1.2em; font-size: .9em;}
+#overview dt { font-weight: bold;}
+
+#page li { width: 194px; height: 128px; background: #000; margin: 20px 20px 0 0; float: left; position: relative;}
+#page li.no-margin { margin-right: 0;}
+#page li img { position: absolute; top: 0; left: 0; z-index: 1;}
+
+/* Typography */
+
+h1 { color: #fff;}
+h2 { font-weight: bold;}
+h3 { font-weight: bold; color: #333; margin: 0 0 .5em 0;}
+
+p { line-height: 1.25em; color: #333; margin: 0 0 .5em 0; font-size: 14px;}
+
+em { color: #09c;}
+
+#title h2 { font-size: 2.25em; padding-top: 96px;}
+
+.caption h4 { font-weight: bold;}
+.caption p, .caption h4 { color: #09c; font-size: .875em;}
+
+#overview p { font-size: 1.5em; line-height: 26px; color: #333;}
+#footer p { font-size: .75em; color: #666; margin: 10px 0;}
+
+#page p { color: #999; font-size: 11px; margin: 6px;}
+#page h2, #page h3, #page h4 { font-size: 1.5em; font-weight: bold;}
+#page h2 { color: #fff; line-height: 1.1em; position: relative; z-index: 2;}
+#page h3 { color: #000; margin-top: 20px;}
+#page h4 { color: #888; font-style: italic;}
+#page em { color: #09c;}
+
+/* Style Chunks */
+
+pre { overflow:auto; width: 380px; background:#f9f9f9; border:1px solid #ccc; border-width:1px 0 1px 0; padding: 10px 20px; margin: 10px 0 1.5em 0; line-height: 1.2em; font-family:monospace;}
+
+.caption { margin-right: 0;}
+
+#article img { margin: .5em 0 1em 0;}
+.comparison img { float: left;}
+.right { padding-left: 20px;}
+
+/* Links */
+
+a { color: #09c; text-decoration: none;}
+a:hover { border-bottom: 1px solid #09c;}
