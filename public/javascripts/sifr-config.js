@@ -12,7 +12,7 @@ the copyright statement in `sifr.js` is kept intact.
 // Make an object pointing to the location of the Flash movie on your web server.
 // Try using the font name as the variable name, makes it easy to remember which
 // object you're using. As an example in this file, we'll use Futura.
-var sauna = { src: 'flash/sauna.swf' };
+var sauna = { src: '/images/site/sauna.swf' };
 
 // Now you can set some configuration settings.
 // See also <http://wiki.novemberborn.net/sifr3/JavaScript+Configuration>.
@@ -51,7 +51,7 @@ sIFR.activate(sauna);
 // of the entire Flash movie to be a light grey, and the `color` of the text to
 // be red. Read more about styling at <http://wiki.novemberborn.net/sifr3/Styling>.
 sIFR.replace(sauna, {
-  selector: 'h2.replace',
+  selector: '.archive h2',
   wmode: 'transparent',
   css: '.sIFR-root { color: #cccccc; font-size: 26px; } a:link { color: #0099CC; text-decoration: none;}'
 });
