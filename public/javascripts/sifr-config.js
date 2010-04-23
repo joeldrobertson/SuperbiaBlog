@@ -53,5 +53,10 @@ sIFR.activate(sauna);
 sIFR.replace(sauna, {
   selector: '.archive h2',
   wmode: 'transparent',
-  css: '.sIFR-root { color: #cccccc; font-size: 26px; } a:link { color: #0099CC; text-decoration: none;}'
+  css: '.sIFR-root { color: #0099cc; font-size: 26px; } a:link { color: #cccccc; text-decoration: none;} a:hover { color: #0099cc;}'
+});
+sIFR.replace(sauna, {
+  selector: '#title h2',
+  wmode: 'transparent',
+  css: '.sIFR-root { color: #999999; font-size: 36px; } a:link { color: #0099CC; text-decoration: none;}'
 });
