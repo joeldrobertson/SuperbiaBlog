@@ -57,6 +57,5 @@ sIFR.replace(sauna, {
 });
 sIFR.replace(sauna, {
   selector: '#title h2',
-  wmode: 'transparent',
   css: '.sIFR-root { color: #999999; font-size: 36px; } a:link { color: #0099CC; text-decoration: none;}'
 });

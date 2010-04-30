@@ -1,4 +1,9 @@
 #page h2 {
     background:transparent;
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
-    zoom: 1;
+    zoom: 1; }
+    
+#article img { margin: 4px 0 3px 0;}
+
+pre { margin: 4px 0 6px 0; padding: 8px 0 10px 0;}
+
