@@ -51,11 +51,16 @@ sIFR.activate(sauna);
 // of the entire Flash movie to be a light grey, and the `color` of the text to
 // be red. Read more about styling at <http://wiki.novemberborn.net/sifr3/Styling>.
 sIFR.replace(sauna, {
-  selector: '#page h2',
+  selector: '#archive h2',
   wmode: 'transparent',
   css: '.sIFR-root { color: #0099cc; font-size: 22px; } a { color: #cccccc; text-decoration: none;} a:hover { color: #0099cc;}'
 });
 sIFR.replace(sauna, {
   selector: '#title h2',
   css: '.sIFR-root { color: #999999; font-size: 36px; } a:link { color: #0099CC; text-decoration: none;}'
+});
+sIFR.replace(sauna, {
+  selector: '.home h2',
+  wmode: 'transparent',
+  css: '.sIFR-root { color: #666666; font-size: 28px;} a { color: #0099cc; text-decoration: none;} a:hover { color: #666666;}'
 });
